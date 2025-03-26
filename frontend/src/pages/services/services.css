@@ -1,0 +1,56 @@
+.services-container {
+    padding: 24px;
+    margin-top: 50px;
+  }
+  
+  .service-item {
+    padding: 12px;
+  }
+  
+  .service-card {
+    transition: transform 0.6s ease-in-out;
+    height: 385px;
+    width: 340px;
+    border: 2px solid black; 
+    padding: 1px;
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+   
+  }
+  
+  .service-card:hover {
+    transform: scale(1.08);
+  }
+  
+  .service-title {
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+
+  }
+  
+  .service-description {
+    color: gray;
+  }
+  
+  .services-text {
+    text-align: center; 
+    
+    font-family: "Bell MT" !important;
+    color: black;
+    margin-top: 80px; 
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 80px; 
+    display: block;
+    transform: translate(0px,32px);
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+  }
+ 

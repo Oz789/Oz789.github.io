@@ -1,0 +1,40 @@
+.home-page {
+    height: 100vh; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-left: 38px;
+    
+}
+
+.home-button { 
+    background-color: transparent !important;
+    border: 2px solid transparent !important;
+    color: rgb(0, 0, 0); 
+    font-size: 35px;
+    font-family: "Bell MT" !important;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 400px;
+}
+
+.home-button:hover {
+    transform: scale(1.1); 
+}
+
+.employee-portal {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px;
+    font-family: "Bell MT";
+}
+
+.employee-portal:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+
+  

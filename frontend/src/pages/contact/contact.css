@@ -1,0 +1,84 @@
+/* Centering the form container */
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Styling form labels */
+  .contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling input fields */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    background-color: #002855;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #004080;
+  }
+  
+  /* Row layout for first and last name fields */
+  .form-group.row {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  /* Styling the required note */
+  .required-note {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  /* Media query for better responsiveness */
+  @media (max-width: 600px) {
+    .form-group.row {
+      flex-direction: column;
+    }
+  }
+
